@@ -41,7 +41,7 @@ If hold a move keys it repets the move.
 
 ***Tip: When you are in Normal Mode you can execute vim commands. Press the `<ESC>` key to make sure you are in Normal Mode***
 
-Normal Mode:
+**Normal Mode:**
 * Exit without save (trash all changes): 
 ```
 :q!
@@ -53,7 +53,7 @@ Normal Mode:
 
 ## Text Editing
 
-Normal Mode:
+**Normal Mode:**
 * Delete single focus character: 
 ```
 x
@@ -80,15 +80,15 @@ A or Shift+a
 
 ```
 Many commands that change text are made from an operator and a motion.
+```
 (Quote: [Vimtutor](#references))
+
+**Format:**
+```
+<operator><motion>
 ```
 
-Format:
-```
-<operator> <motion>
-```
-
-*Normal Mode:*
+**Normal Mode:**
 * Delete operator: 
 	```
 	d<motion>
