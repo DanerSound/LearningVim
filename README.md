@@ -22,6 +22,7 @@ This will open the file you want to edit with vim.
 ## Navigations and Motions
 
 ***Tip1: Never use arrow keys.***
+
 ***Tip2: When you are in Normal Mode you can execute vim commands. Press the `<ESC>` key to make sure you are in Normal Mode***
 
 All the moves are intended to be use in **Normal Mode**.
