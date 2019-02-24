@@ -12,14 +12,14 @@ Rule #1: *Never use arrow keys.*
 
 From now on i disable the up, down, left, right arrow and I will use only the h, j, k, l.
 
-***
+```
 To move the cursor, press the h,j,k,l keys as indicated. 
              ^
              k              Hint:  The h key is at the left and moves left.
        < h       l >               The l key is at the right and moves right.
              j                     The j key looks like a down arrow.
              v
-***
+```
 (Cit. Vimtutor)
 
 
