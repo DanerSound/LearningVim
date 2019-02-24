@@ -93,9 +93,9 @@ Normal Mode:
 d <motion>
 ```
 There are several motion for the delete operator:
-	- `w` - delete until the start of the next word, excluding its first character.
-	- `e` - delete to the end of the current word, including the last character.
-	- `$` - delete to the end of the line, including the last character.
+- `w` - delete until the start of the next word, excluding its first character.
+- `e` - delete to the end of the current word, including the last character.
+- `$` - delete to the end of the line, including the last character.
 
 -------------------------------------------------------------------
 
