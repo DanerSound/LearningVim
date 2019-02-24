@@ -19,11 +19,12 @@ vim <path_to_file>
 ```
 This will open the file you want to edit with vim.
 
-## Navigations
+## Navigations and Motions
 
-***Tip: Never use arrow keys.***
+***Tip1: Never use arrow keys.***
+***Tip2: When you are in Normal Mode you can execute vim commands. Press the `<ESC>` key to make sure you are in Normal Mode***
 
-From now on i disable the up, down, left, right arrow and I will use only the h, j, k, l.
+All the moves are intended to be use in **Normal Mode**.
 
 ```
 To move the cursor, press the h,j,k,l keys as indicated. 
@@ -35,11 +36,18 @@ To move the cursor, press the h,j,k,l keys as indicated.
 ```
 (Quote: [Vimtutor](#references))
 
-If hold a move keys it repets the move.
+The move from a character to another is called **motion**.
+
+All the motions that you can use are:
+* `h/j/k/l` - in order move left/down/up/right
+* `w` - move to the start of the next word 
+* `e` - move to the end of the next word
+* `$` - move to the end of the line
+* `0` - move to the start of the line
+
+If hold a motions keys it repets the move.
 
 ## Exiting Vim
-
-***Tip: When you are in Normal Mode you can execute vim commands. Press the `<ESC>` key to make sure you are in Normal Mode***
 
 **Normal Mode:**
 * Exit without save (trash all changes): 
@@ -58,7 +66,7 @@ If hold a move keys it repets the move.
 ```
 x
 ```
-* Delete operator (the operators and the motions are explained on this section: [Operators and Motions](#operators_and_motions):
+* Delete operator ([Operators](#operators)):
 ```
 d<motion>
 ```
@@ -75,13 +83,14 @@ a
 A or Shift+a
 ``` 
 
-## Operators and Motions
-
+## Operators
 
 ```
 Many commands that change text are made from an operator and a motion.
 ```
 (Quote: [Vimtutor](#references))
+
+###### All the motions are in the [Navigation and motions](#navigation_and_motions) section.
 
 **Format:**
 ```
@@ -94,7 +103,7 @@ Many commands that change text are made from an operator and a motion.
 	d<motion>
 	```
 
-	There are several motion for the delete operator:
+	There are several **motion** for the delete operator:
 	- `w` - delete until the start of the next word, excluding its first character.
 	- `e` - delete to the end of the current word, including the last character.
 	- `$` - delete to the end of the line, including the last character.
@@ -102,6 +111,6 @@ Many commands that change text are made from an operator and a motion.
 -------------------------------------------------------------------
 
 #### References
-* Vimtutor: you can easy run vimtutor from your terminal and get all the documentations and help of the vim editor
-* Video of [DistroTube](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg): [The Vim Tutorial - Part One - Basic Commands](https://www.youtube.com/watch?v=ER5JYFKkYDg)
+* **Vimtutor**: you can easy run vimtutor from your terminal and get all the documentations and help of the vim editor
+* **Video of [DistroTube](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg)**: [The Vim Tutorial - Part One - Basic Commands](https://www.youtube.com/watch?v=ER5JYFKkYDg)
 
