@@ -3,6 +3,7 @@
 ****I want to learn vim or I will die trying****
 
 ###### *I raccomend to use vimtutor as the best guide for vim*
+###### *Whatever happens, remember to press <esc> to return on Normal Mode*
 
 ## Install vim
 
@@ -36,18 +37,30 @@ If hold a move keys it repets the move.
 
 ## Exiting Vim
 
-***Tip: When you are in Normal Mode you can execute vim commands. Press the <ESC> key to make sure you are in Normal Mode***
+***Tip: When you are in Normal Mode you can execute vim commands. Press the `<ESC>` key to make sure you are in Normal Mode***
 
 Normal Mode:
-* Exit without save (trash all changes): `:q!`
-* Exit with save (save the changes): `:wq`
+* Exit without save (trash all changes): 
+```:q!```
+* Exit with save (save the changes): 
+```:wq```
 
 ## Text Editing
 
 Normal Mode:
-* Delete single focus character: `x`
-* Enter in Insert Mode: `i`
-* Append some text next to the character focused 
+* Delete single focus character: 
+```x```
+* Enter in Insert Mode: 
+```i```
+Insert before the cursor
+* Enter in Insert Mode next to the character focused:
+```a```
+Append after the character. 
+* Append text to the line focused:
+```A``` or ```Shift+a``` 
+This will put you on Insert Mode at the end of the line of the character focused.
+
+-------------------------------------------------------------------
 
 #### References
 * Vimtutor: you can easy run vimtutor from your terminal and get all the documentations and help of the vim editor
