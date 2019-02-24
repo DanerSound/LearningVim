@@ -1,6 +1,6 @@
 # LearningVim
 
-![[Vim](https://www.vim.org/images/vim_header.gif)](https://www.vim.org/)
+[![Vim](https://www.vim.org/images/vim_header.gif)](https://www.vim.org/)
 
 ****I want to learn vim or I will die trying****
 
