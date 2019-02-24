@@ -41,37 +41,35 @@ If hold a move keys it repets the move.
 
 Normal Mode:
 * Exit without save (trash all changes): 
-
-```:q!```
-
+```
+:q!
+```
 * Exit with save (save the changes): 
-
-```:wq```
+```
+:wq
+```
 
 ## Text Editing
 
 Normal Mode:
 * Delete single focus character: 
+```
+x
+```
+* Enter in Insert Mode (Insert before the cursor): 
+```
+i
+```
 
-```x```
+* Enter in Insert Mode next to the character focused (Append after the character):
+```
+a
+```
 
-* Enter in Insert Mode: 
-
-```i```
-
-Insert before the cursor
-
-* Enter in Insert Mode next to the character focused:
-
-```a```
-
-Append after the character. 
-
-* Append text to the line focused:
-
-```A``` or ```Shift+a``` 
-
-This will put you on Insert Mode at the end of the line of the character focused.
+* Append text to the line focused (This will put you on Insert Mode at the end of the line of the character focused):
+```
+A or Shift+a
+``` 
 
 -------------------------------------------------------------------
 
