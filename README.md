@@ -90,8 +90,9 @@ Format:
 
 *Normal Mode:*
 * Delete operator: 
-
+	```
 	d<motion>
+	```
 
 	There are several motion for the delete operator:
 	- `w` - delete until the start of the next word, excluding its first character.
