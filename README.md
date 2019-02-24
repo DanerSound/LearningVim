@@ -3,7 +3,7 @@
 ****I want to learn vim or I will die trying****
 
 ###### *I raccomend to use vimtutor as the best guide for vim*
-###### *Whatever happens, remember to press <esc> to return on Normal Mode*
+###### *Whatever happens, remember to press `<ESC>` to return on Normal Mode*
 
 ## Install vim
 
