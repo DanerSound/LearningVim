@@ -19,7 +19,7 @@ This will open the file you want to edit with vim.
 
 ## Navigations
 
-Rule #1: *Never use arrow keys.*
+***Tip: Never use arrow keys.***
 
 From now on i disable the up, down, left, right arrow and I will use only the h, j, k, l.
 
