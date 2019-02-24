@@ -77,25 +77,26 @@ A or Shift+a
 
 ## Operators and Motions
 
+
+```
+Many commands that change text are made from an operator and a motion.
+(Quote: [Vimtutor](#references))
+```
+
 Format:
 ```
 <operator> <motion>
 ```
 
-```
-Many commands that change text are made from an operator and a motion.
-```
-(Quote: [Vimtutor](#references))
-
-Normal Mode:
+*Normal Mode:*
 * Delete operator: 
-```
-d <motion>
-```
-There are several motion for the delete operator:
-- `w` - delete until the start of the next word, excluding its first character.
-- `e` - delete to the end of the current word, including the last character.
-- `$` - delete to the end of the line, including the last character.
+
+	d<motion>
+
+	There are several motion for the delete operator:
+	- `w` - delete until the start of the next word, excluding its first character.
+	- `e` - delete to the end of the current word, including the last character.
+	- `$` - delete to the end of the line, including the last character.
 
 -------------------------------------------------------------------
 
