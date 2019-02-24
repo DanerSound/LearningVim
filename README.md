@@ -46,7 +46,7 @@ All the motions that you can use are:
 * `$` - move to the end of the line
 * `0` - move to the start of the line
 
-If hold a motions keys it repets the move.
+If hold a motions keys it repeats the move.
 
 ## Exiting Vim
 
@@ -71,15 +71,15 @@ x
 ```
 d<motion>
 ```
-* Enter in Insert Mode (insert before the cursor): 
+* Enter in **Insert Mode** (insert before the cursor): 
 ```
 i
 ```
-* Enter in Insert Mode next to the character focused (append after the character):
+* Enter in **Insert Mode** next to the character focused (append after the character):
 ```
 a
 ```
-* Append text to the line focused (this will put you on Insert Mode at the end of the line of the character focused):
+* Append text to the line focused (this will put you on **Insert Mode** at the end of the line of the character focused):
 ```
 A or Shift+a
 ``` 
