@@ -1,5 +1,7 @@
 # LearningVim
 
+![Vim](https://www.vim.org/images/vim_header.gif)
+
 ****I want to learn vim or I will die trying****
 
 ###### *I raccomend to use vimtutor as the best guide for vim*
