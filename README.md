@@ -58,20 +58,44 @@ Normal Mode:
 ```
 x
 ```
+* Delete operator (the operators and the motions are explained on this section: [Operators and Motions](#operators_and_motions):
+```
+d<motion>
+```
 * Enter in Insert Mode (insert before the cursor): 
 ```
 i
 ```
-
 * Enter in Insert Mode next to the character focused (append after the character):
 ```
 a
 ```
-
 * Append text to the line focused (this will put you on Insert Mode at the end of the line of the character focused):
 ```
 A or Shift+a
 ``` 
+
+## Operators and Motions
+
+Format:
+```
+<operator> <motion>
+```
+
+```
+Many commands that change text are made from an operator and a motion.
+```
+(Quote: [Vimtutor](#references))
+
+Normal Mode:
+* Delete operator: 
+```
+d <motion>
+```
+There are several motion for the delete operator:
+	- `w` - delete until the start of the next word, excluding its first character.
+	- `e` - delete to the end of the current word, including the last character.
+	- `$` - delete to the end of the line, including the last character.
 
 -------------------------------------------------------------------
 
