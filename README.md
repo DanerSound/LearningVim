@@ -46,7 +46,16 @@ All the motions that you can use are:
 * `$` - move to the end of the line
 * `0` - move to the start of the line
 
-If hold a motions keys it repeats the move.
+There are several ways to repeats a motion: hold the motion key or type a number before a motion.
+```
+<motion>
+```
+or
+```
+<number><motion>
+```
+
+For example: You want to move the cursor to the start of the third word ahead, you can type `3w`. In the same way you can move to the 10th line after the line where you are by type `10j`. 
 
 ## Exiting Vim
 
@@ -103,11 +112,26 @@ Many commands that change text are made from an operator and a motion.
 	```
 	d<motion>
 	```
+	or
+	```
+	d<number><motion>
+	```
 
 	There are several **motion** for the delete operator:
 	- `w` - delete until the start of the next word, excluding its first character.
 	- `e` - delete to the end of the current word, including the last character.
 	- `$` - delete to the end of the line, including the last character.
+	- `0` - delete from the start of the line to the character where the cursor is.
+
+	To delete the entire line you can use the command:
+	```
+	dd
+	```
+	Or delete more the 1 line:
+	```
+	<number>dd
+	```
+	
 
 -------------------------------------------------------------------
 
