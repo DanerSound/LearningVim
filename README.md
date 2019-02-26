@@ -23,7 +23,9 @@ This will open the file you want to edit with vim.
 
 ***Tip1: Never use arrow keys.***
 
+
 ***Tip2: When you are in Normal Mode you can execute vim commands. Press the `<ESC>` key to make sure you are in Normal Mode***
+
 
 All the moves are intended to be use in **Normal Mode**.
 
@@ -57,9 +59,10 @@ or
 
 For example: You want to move the cursor to the start of the third word ahead, you can type `3w`. In the same way you can move to the 10th line after the line where you are by type `10j`. 
 
+
 ## Exiting Vim
 
-**Normal Mode:**
+**On Normal Mode:**
 * Exit without save (trash all changes): 
 ```
 :q!
@@ -69,14 +72,15 @@ For example: You want to move the cursor to the start of the third word ahead, y
 :wq
 ```
 
-## Text Editing
 
-**Normal Mode:**
+## Text Editing and Commands
+
+**On Normal Mode:**
 * Delete single focus character: 
 ```
 x
 ```
-* Delete operator ([Operators](#operators)):
+* Delete operator (to know more go to [Operators](#operators) paragraph):
 ```
 d<motion>
 ```
@@ -92,6 +96,29 @@ a
 ```
 A or Shift+a
 ``` 
+* Undo last commands executed:
+```
+u
+```
+* Undo a whole line and return the line to its original state:
+```
+U or Shift+u
+```
+* Redo last commands, that is undo the undo's:
+```
+CTRL+r
+```
+You can keep CTRL key and hitting *r* a number of time to redo multiple times.
+* Put the previously deleted text after the cursor:
+```
+p
+```
+* Replace command allows to insert a new character above the character focused:
+```
+r<new_character>
+```
+
+
 
 ## Operators
 
@@ -107,7 +134,7 @@ Many commands that change text are made from an operator and a motion.
 <operator><motion>
 ```
 
-**Normal Mode:**
+**On Normal Mode:**
 * Delete operator: 
 	```
 	d<motion>
@@ -131,7 +158,6 @@ Many commands that change text are made from an operator and a motion.
 	```
 	<number>dd
 	```
-	
 
 -------------------------------------------------------------------
 
