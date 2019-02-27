@@ -205,7 +205,9 @@ Many commands that change text are made from an operator and a motion.
 ```
 
 ###### **On Normal Mode**
+
 --------------------------------------------------
+
 #### Delete operator: 
 	```
 	d<motion>
@@ -230,7 +232,9 @@ Many commands that change text are made from an operator and a motion.
 	```
 	<number>dd
 	```
+
 --------------------------------------------------
+
 #### Change operator:
 	```
 	c<motion>
@@ -248,11 +252,10 @@ Many commands that change text are made from an operator and a motion.
 	- `$` - replace to the end of the line, including the last character.
 	- `0` - replace from the start of the line to the character where the cursor is.
 	- To know all the motions go to [Navigations and motions](#navigations-and-motions)
+
 --------------------------------------------------
 
--------------------------------------------------------------------
-
-#### References
+## References
 * **Vimtutor**: you can easy run vimtutor from your terminal and get all the documentations and help of the vim editor
 * **Video of [DistroTube](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg)**: [The Vim Tutorial - Part One - Basic Commands](https://www.youtube.com/watch?v=ER5JYFKkYDg)
 
