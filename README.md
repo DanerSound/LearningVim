@@ -208,49 +208,49 @@ Many commands that change text are made from an operator and a motion.
 
 #### Delete operator: 
 
-	```
-	d<motion>
-	```
-	or
-	```
-	d[number]<motion>
-	```
+```
+d<motion>
+```
+or
+```
+d[number]<motion>
+```
 
-	There are several **motion** for the delete operator:
-	- `w` - delete until the start of the next word, excluding its first character.
-	- `e` - delete to the end of the current word, including the last character.
-	- `$` - delete to the end of the line, including the last character.
-	- `0` - delete from the start of the line to the character where the cursor is.
-	- To know all the motions go to [Navigations and motions](#navigations-and-motions)
+There are several **motion** for the delete operator:
+- `w` - delete until the start of the next word, excluding its first character.
+- `e` - delete to the end of the current word, including the last character.
+- `$` - delete to the end of the line, including the last character.
+- `0` - delete from the start of the line to the character where the cursor is.
+- To know all the motions go to [Navigations and motions](#navigations-and-motions)
 
-	To delete the entire line you can use the command:
-	```
-	dd
-	```
-	Or delete more the 1 line:
-	```
-	<number>dd
-	```
+To delete the entire line you can use the command:
+```
+dd
+```
+Or delete more the 1 line:
+```
+<number>dd
+```
 
 --------------------------------------------------
 
 #### Change operator:
-	```
-	c<motion>
-	```
-	or
-	```
-	c[number]<motion>
-	```
- 
-	This operator delete the selection made with the motion and put you in the **Insert Mode**. It is something like delete and replace command.
+```
+c<motion>
+```
+or
+```
+c[number]<motion>
+```
 
-	It can be use all the motion, some example they can be:
-	- `w` - replace until the start of the next word, excluding its first character.
-	- `e` - replace to the end of the current word, including the last character.
-	- `$` - replace to the end of the line, including the last character.
-	- `0` - replace from the start of the line to the character where the cursor is.
-	- To know all the motions go to [Navigations and motions](#navigations-and-motions)
+This operator delete the selection made with the motion and put you in the **Insert Mode**. It is something like delete and replace command.
+
+It can be use all the motion, some example they can be:
+- `w` - replace until the start of the next word, excluding its first character.
+- `e` - replace to the end of the current word, including the last character.
+- `$` - replace to the end of the line, including the last character.
+- `0` - replace from the start of the line to the character where the cursor is.
+- To know all the motions go to [Navigations and motions](#navigations-and-motions)
 
 --------------------------------------------------
 
