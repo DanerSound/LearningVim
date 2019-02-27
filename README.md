@@ -48,11 +48,12 @@ All the motions that you can use are:
 * `$` - move to the end of the line
 * `0` - move to the start of the line
 
-There are several ways to repeats a motion: hold the motion key or type a number before a motion.
+There are several ways to repeats a motion: 
+* hold the motion key or type a number before a motion:
 ```
 <motion>
 ```
-or
+* or put a number of time you want to repeat the motion:
 ```
 <number><motion>
 ```
