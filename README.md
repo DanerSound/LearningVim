@@ -75,7 +75,7 @@ For example: You want to move the cursor to the start of the third word ahead, y
 
 ## Text Editing and Commands
 
-############# On Normal Mode
+###### **On Normal Mode**
 #### Delete single focus character: 
 ```
 x
