@@ -134,6 +134,7 @@ gg
 <number>G or <number>+Shift+g
 ```
 * Search command:
+
 *Forward direction*
 ```
 /<string_to_search>
@@ -151,6 +152,7 @@ To search for the same phrase in the opposite direction:
 N or Shift+n
 ```
 * Return to the previous position:
+
 *Forward direction*
 ```
 Ctrl+o
