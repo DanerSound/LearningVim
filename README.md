@@ -117,8 +117,48 @@ p
 ```
 r<new_character>
 ```
-
-
+* Show the position in the file and status of the file:
+```
+Ctrl+g
+```
+* Move to the bottom of the file:
+```
+G or Shift+g
+```
+* Move to the start of the file:
+```
+gg
+```
+* Move to a defined line:
+```
+<number>G or <number>+Shift+g
+```
+* Search command:
+*Forward direction*
+```
+/<string_to_search>
+```
+*Backward direction*
+```
+?<string_to_search>
+```
+To search for the same phrase again:
+```
+n
+```
+To search for the same phrase in the opposite direction:
+```
+N or Shift+n
+```
+* Return to the previous position:
+*Forward direction*
+```
+Ctrl+o
+```
+and *Backward direction*
+```
+Ctrl+i
+```
 
 ## Operators
 
