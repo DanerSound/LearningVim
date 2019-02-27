@@ -106,7 +106,7 @@ Enter in **Insert Mode** (insert before the cursor):
 i
 ```
 --------------------------------------------------
-Enter in **Insert Mode** next to the character focused (append after the character):
+Enter in **Insert Mode** next to the character focused (append command):
 ```
 a
 ```
@@ -115,6 +115,22 @@ Append text to the line focused (this will put you on **Insert Mode** at the end
 ```
 A or Shift+a
 ``` 
+----------------------------------------------------
+Replace single character:
+```
+r
+``` 
+---------------------------------------------------
+Replace more then one character:
+```
+R or Shift+r
+``` 
+To exit from **Replace Mode** press <ESC>.
+-------------------------------------------------
+Enter in **Insert Mode** in the line below the cursor:
+```
+o
+```
 --------------------------------------------------
 Undo last commands executed:
 ```
@@ -271,7 +287,15 @@ Now you need to set the write mode and a filename:
 This will create a file with the selection.
 
 --------------------------------------------------
-
+To do a copy and paste you need to use yank command. First select some text in **Visual Mode** and then press: 
+```
+y
+```
+Then you can paste the yanked text with:
+```
+p
+```
+--------------------------------------------------
 
 
 ## Operators
@@ -338,6 +362,29 @@ It can be use all the motion, some example they can be:
 - `0` - replace from the start of the line to the character where the cursor is.
 - To know all the motions go to [Navigations and motions](#navigations-and-motions)
 
+--------------------------------------------------
+Yank (copy) operator:
+```
+y<motion>
+```
+or
+```
+y[number]<motion>
+```
+
+This operator copy the selection made with the motion.
+
+It can be use all the motion, some example they can be:
+- `w` - copy until the start of the next word, excluding its first character.
+- `e` - copy to the end of the current word, including the last character.
+- `$` - copy to the end of the line, including the last character.
+- `0` - copy from the start of the line to the character where the cursor is.
+- To know all the motions go to [Navigations and motions](#navigations-and-motions)
+
+This operator is use with paste command:
+```
+p
+```
 --------------------------------------------------
 
 ## References
