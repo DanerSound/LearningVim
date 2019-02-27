@@ -235,7 +235,7 @@ Retrive command:
 ```
 :r <filename>
 ```
-This will retrive the contents of <filename> and place below the cursor line.
+This will retrive the contents of **filename** and place below the cursor line.
 You can also retrive a command:
 ```
 :r !<external command>
