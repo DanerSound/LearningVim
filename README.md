@@ -126,6 +126,7 @@ Replace more then one character:
 R or Shift+r
 ``` 
 To exit from **Replace Mode** press <ESC>.
+
 -------------------------------------------------
 Enter in **Insert Mode** in the line below the cursor:
 ```
@@ -385,6 +386,31 @@ This operator is use with paste command:
 ```
 p
 ```
+
+## Vim configuration
+ 
+Vim has many more features than Vi, bu most of them are disabled by default. To abilitate them is need a vimrc file.
+To start editing the **vimrc** file (on Unix) you need to run this command:
+```
+:e ~/.vimrc
+```
+To get an example of vimrc you can run the retrive command of the vimrc_example into your .vimrc:
+```
+:r $VIMRUNTIME/vimrc_example.vim
+```
+For more information you can type:
+```
+:help vimrc-intro
+```
+
+## Vim command line completion
+
+When you are in **Command Line Mode** you can use the completition with:
+```
+Ctrl+d
+```
+this will work for everything with file or command. You can press the `<TAB>` key to choose one of the completition. 
+
 --------------------------------------------------
 
 ## References
