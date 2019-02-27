@@ -117,7 +117,9 @@ U or Shift+u
 ```
 CTRL+r
 ```
+
 You can keep CTRL key and hitting *r* a number of time to redo multiple times.
+
 --------------------------------------------------
 #### Put the previously deleted text after the cursor:
 ```
