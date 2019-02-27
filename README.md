@@ -206,9 +206,8 @@ Many commands that change text are made from an operator and a motion.
 
 ###### **On Normal Mode**
 
---------------------------------------------------
-
 #### Delete operator: 
+
 	```
 	d<motion>
 	```
