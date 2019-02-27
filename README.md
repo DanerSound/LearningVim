@@ -62,16 +62,18 @@ For example: You want to move the cursor to the start of the third word ahead, y
 
 ## Exiting Vim
 
-###### **On Normal Mode:**
+###### **On Normal Mode**
 --------------------------------------------------
 #### Exit without save (trash all changes): 
 ```
 :q!
 ```
+--------------------------------------------------
 #### Exit with save (save the changes): 
 ```
 :wq
 ```
+--------------------------------------------------
 
 
 ## Text Editing and Commands
@@ -117,7 +119,6 @@ U or Shift+u
 ```
 CTRL+r
 ```
-
 You can keep CTRL key and hitting *r* a number of time to redo multiple times.
 
 --------------------------------------------------
@@ -172,11 +173,11 @@ N or Shift+n
 --------------------------------------------------
 #### Return to the previous position:
 
-*Forward direction*
+*Forward direction*:
 ```
 Ctrl+o
 ```
-and *Backward direction*
+and *Backward direction*:
 ```
 Ctrl+i
 ```
@@ -186,6 +187,7 @@ Ctrl+i
 %
 ```
 This command will place the cursor on any *(*, *[*, *{* in the line below marked.
+
 --------------------------------------------------
 
 ## Operators
