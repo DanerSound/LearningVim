@@ -246,6 +246,7 @@ Enter in **Visual Mode**:
 v
 ```
 On visual mode you can select characters and lines with the motion keys. With the selection you can execute command (see below).
+
 --------------------------------------------------
 
 ###### **On Visual Mode**
