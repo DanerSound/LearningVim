@@ -49,11 +49,11 @@ All the motions that you can use are:
 * `0` - move to the start of the line
 
 There are several ways to repeats a motion: 
-* hold the motion key or type a number before a motion:
+* hold the motion key
 ```
 <motion>
 ```
-* or put a number of time you want to repeat the motion:
+* or type a number before a motion to repeat
 ```
 <number><motion>
 ```
@@ -61,7 +61,7 @@ There are several ways to repeats a motion:
 For example: You want to move the cursor to the start of the third word ahead, you can type `3w`. In the same way you can move to the 10th line after the line where you are by type `10j`. 
 
 
-## Exiting Vim
+## Exit and save on Vim
 
 ###### **On Normal Mode**
 
@@ -76,7 +76,15 @@ Exit with save (save the changes):
 :wq
 ```
 --------------------------------------------------
-
+Save changes made to the text:
+```
+:w
+```
+or save with filename:
+```
+:w <filename>
+```
+--------------------------------------------------
 
 ## Text Editing and Commands
 
@@ -196,6 +204,74 @@ Mach parentheses search command:
 This command will place the cursor on any *(*, *[*, *{* in the line below marked.
 
 --------------------------------------------------
+To substitute a word to a new one:
+```
+:s/<old_word>/<new_word>
+```
+This will change the first old_word found with the new_word.
+To substitute this word on the entire of the line:
+```
+:s/<old_word>/<new_word>/g
+```
+To substitute old_word with new_word from line x to line y:
+```
+:<x>,<y>s/<old_word>/<new_word>/g
+```
+To substitute in the entire file:
+```
+:%s/<old_word>/<new_word>/g
+```
+To substitute in the entire file and ask for confirmation each time:
+```
+:%s/<old_word>/<new_word>/gc
+```
+--------------------------------------------------
+Execute an external command:
+```
+:! <external_command>
+```
+--------------------------------------------------
+Retrive command:
+```
+:r <filename>
+```
+This will retrive the contents of <filename> and place below the cursor line.
+You can also retrive a command:
+```
+:r !<external command>
+```
+--------------------------------------------------
+Enter in **Visual Mode**:
+```
+v
+```
+On visual mode you can select characters and lines with the motion keys. With the selection you can execute command (see below).
+--------------------------------------------------
+
+###### **On Visual Mode**
+--------------------------------------------------
+Delete selection:
+```
+d
+```
+--------------------------------------------------
+Save the selection into a file to press:
+```
+:
+```
+Will appear something like:
+```
+:'<,'>
+```
+Now you need to set the write mode and a filename:
+```
+:'<,'>w <filename>
+```
+This will create a file with the selection.
+
+--------------------------------------------------
+
+
 
 ## Operators
 
