@@ -4,8 +4,8 @@
 
 ****I want to learn vim or I will die trying****
 
-###### *I raccomend to use vimtutor as the best guide for vim*
-###### *Whatever happens, remember to press `<ESC>` to return on Normal Mode*
+## *I raccomend to use vimtutor as the best guide for vim*
+## *Whatever happens, remember to press `<ESC>` to return on Normal Mode*
 
 ## Install vim
 
@@ -64,12 +64,12 @@ For example: You want to move the cursor to the start of the third word ahead, y
 
 ###### **On Normal Mode**
 --------------------------------------------------
-#### Exit without save (trash all changes): 
+Exit without save (trash all changes): 
 ```
 :q!
 ```
 --------------------------------------------------
-#### Exit with save (save the changes): 
+Exit with save (save the changes): 
 ```
 :wq
 ```
@@ -80,79 +80,79 @@ For example: You want to move the cursor to the start of the third word ahead, y
 
 ###### **On Normal Mode**
 --------------------------------------------------
-#### Delete single focus character: 
+Delete single focus character: 
 ```
 x
 ```
 --------------------------------------------------
-#### Delete operator (to know more go to [Operators](#operators) paragraph):
+Delete operator (to know more go to [Operators](#operators) paragraph):
 ```
 d<motion>
 ```
 --------------------------------------------------
-#### Enter in **Insert Mode** (insert before the cursor): 
+Enter in **Insert Mode** (insert before the cursor): 
 ```
 i
 ```
 --------------------------------------------------
-#### Enter in **Insert Mode** next to the character focused (append after the character):
+Enter in **Insert Mode** next to the character focused (append after the character):
 ```
 a
 ```
 --------------------------------------------------
-#### Append text to the line focused (this will put you on **Insert Mode** at the end of the line of the character focused):
+Append text to the line focused (this will put you on **Insert Mode** at the end of the line of the character focused):
 ```
 A or Shift+a
 ``` 
 --------------------------------------------------
-#### Undo last commands executed:
+Undo last commands executed:
 ```
 u
 ```
 --------------------------------------------------
-#### Undo a whole line and return the line to its original state:
+Undo a whole line and return the line to its original state:
 ```
 U or Shift+u
 ```
 --------------------------------------------------
-#### Redo last commands, that is undo the undo's:
+Redo last commands, that is undo the undo's:
 ```
 CTRL+r
 ```
 You can keep CTRL key and hitting *r* a number of time to redo multiple times.
 
 --------------------------------------------------
-#### Put the previously deleted text after the cursor:
+Put the previously deleted text after the cursor:
 ```
 p
 ```
 --------------------------------------------------
-#### Replace command allows to insert a new character above the character focused:
+Replace command allows to insert a new character above the character focused:
 ```
 r<new_character>
 ```
 --------------------------------------------------
-#### Show the position in the file and status of the file:
+Show the position in the file and status of the file:
 ```
 Ctrl+g
 ```
 --------------------------------------------------
-#### Move to the bottom of the file:
+Move to the bottom of the file:
 ```
 G or Shift+g
 ```
 --------------------------------------------------
-#### Move to the start of the file:
+Move to the start of the file:
 ```
 gg
 ```
 --------------------------------------------------
-#### Move to a defined line:
+Move to a defined line:
 ```
 <number>G or <number>+Shift+g
 ```
 --------------------------------------------------
-#### Search command:
+Search command:
 
 *Forward direction*
 ```
@@ -171,7 +171,7 @@ To search for the same phrase in the opposite direction:
 N or Shift+n
 ```
 --------------------------------------------------
-#### Return to the previous position:
+Return to the previous position:
 
 *Forward direction*:
 ```
@@ -182,7 +182,7 @@ and *Backward direction*:
 Ctrl+i
 ```
 --------------------------------------------------
-#### Mach parentheses search command:
+Mach parentheses search command:
 ```
 %
 ```
@@ -208,7 +208,7 @@ Many commands that change text are made from an operator and a motion.
 
 ###### **On Normal Mode**
 
-#### Delete operator: 
+Delete operator: 
 
 ```
 d<motion>
@@ -236,7 +236,7 @@ Or delete more the 1 line:
 
 --------------------------------------------------
 
-#### Change operator:
+Change operator:
 ```
 c<motion>
 ```
