@@ -4,8 +4,8 @@
 
 ****I want to learn vim or I will die trying****
 
-## *I raccomend to use vimtutor as the best guide for vim*
-## *Whatever happens, remember to press `<ESC>` to return on Normal Mode*
+###### *I raccomend to use vimtutor as the best guide for vim*
+###### *Whatever happens, remember to press `<ESC>` to return on Normal Mode*
 
 ## Install vim
 
@@ -63,6 +63,7 @@ For example: You want to move the cursor to the start of the third word ahead, y
 ## Exiting Vim
 
 ###### **On Normal Mode**
+
 --------------------------------------------------
 Exit without save (trash all changes): 
 ```
@@ -79,6 +80,7 @@ Exit with save (save the changes):
 ## Text Editing and Commands
 
 ###### **On Normal Mode**
+
 --------------------------------------------------
 Delete single focus character: 
 ```
@@ -169,6 +171,10 @@ n
 To search for the same phrase in the opposite direction:
 ```
 N or Shift+n
+```
+When you find what you search just press:
+```
+Enter or Return
 ```
 --------------------------------------------------
 Return to the previous position:
