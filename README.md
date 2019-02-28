@@ -100,6 +100,7 @@ All the motions that you can use are:
 * `F<character> or Shift+f<character>` - is the backward motion to the first character specified. 
 * `t<character>` - move forward until the first character specified.
 * `T<character> or Shift+t<character>` - move backward until the first character specified.
+
 There are several ways to repeats a motion: 
 * hold the motion key
 ```
