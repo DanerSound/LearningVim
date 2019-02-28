@@ -19,6 +19,31 @@ vim <path_to_file>
 ```
 This will open the file you want to edit with vim.
 
+## Exit and save on Vim
+
+###### **On Normal Mode**
+
+--------------------------------------------------
+Exit without save (trash all changes): 
+```
+:q!
+```
+--------------------------------------------------
+Exit with save (save the changes): 
+```
+:wq
+```
+--------------------------------------------------
+Save changes made to the text:
+```
+:w
+```
+or save with filename:
+```
+:w <filename>
+```
+--------------------------------------------------
+
 ## Navigations and Motions
 
 ###### ***Tip1: Never use arrow keys.***
@@ -60,31 +85,6 @@ There are several ways to repeats a motion:
 
 For example: You want to move the cursor to the start of the third word ahead, you can type `3w`. In the same way you can move to the 10th line after the line where you are by type `10j`. 
 
-
-## Exit and save on Vim
-
-###### **On Normal Mode**
-
---------------------------------------------------
-Exit without save (trash all changes): 
-```
-:q!
-```
---------------------------------------------------
-Exit with save (save the changes): 
-```
-:wq
-```
---------------------------------------------------
-Save changes made to the text:
-```
-:w
-```
-or save with filename:
-```
-:w <filename>
-```
---------------------------------------------------
 
 ## Text Editing and Commands
 
