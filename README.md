@@ -24,7 +24,7 @@ This will open the file you want to edit with vim.
 ###### **On Normal Mode**
 --------------------------------------------------
 Exit from vim:
-``` 
+```
 :quit
 ```
 or
@@ -32,7 +32,7 @@ or
 :q
 ```
 or
-``` 
+```
 :exit
 ```
 or
@@ -44,12 +44,12 @@ or
 ZZ or Shift+z+z
 ```
 -------------------------------------------------
-Exit without save (trash all changes): 
+Exit without save (trash all changes):
 ```
 :q!
 ```
 --------------------------------------------------
-Exit with save (save the changes): 
+Exit with save (save the changes):
 ```
 :wq
 ```
@@ -75,7 +75,7 @@ or save with filename:
 All the moves are intended to be use in **Normal Mode**.
 
 ```
-To move the cursor, press the h,j,k,l keys as indicated. 
+To move the cursor, press the h,j,k,l keys as indicated.
              ^
              k              Hint:  The h key is at the left and moves left.
        < h       l >               The l key is at the right and moves right.
@@ -88,7 +88,7 @@ The move from a character to another is called **motion**.
 
 All the motions that you can use are:
 * `h/j/k/l` - in order move left/down/up/right
-* `w` - move to the start of the next word 
+* `w` - move to the start of the next word
 * `e` - move to the end of the next word
 * `b` - move to the previous word
 * `$` - move to the end of the line
@@ -97,11 +97,11 @@ All the motions that you can use are:
 * `E or Shift+e` - move to the end of the next word ignoring the special characters like parenthesis or commas.
 * `B or Shift+b` - move to the previous word ignoring the special characters like parenthesis or commas.
 * `f<character>` - is the forward motion to the first character specified.
-* `F<character> or Shift+f<character>` - is the backward motion to the first character specified. 
+* `F<character> or Shift+f<character>` - is the backward motion to the first character specified.
 * `t<character>` - move forward until the first character specified.
 * `T<character> or Shift+t<character>` - move backward until the first character specified.
 
-There are several ways to repeats a motion: 
+There are several ways to repeats a motion:
 * hold the motion key
 ```
 <motion>
@@ -111,7 +111,7 @@ There are several ways to repeats a motion:
 <number><motion>
 ```
 
-For example: You want to move the cursor to the start of the third word ahead, you can type `3w`. In the same way you can move to the 10th line after the line where you are by type `10j`. 
+For example: You want to move the cursor to the start of the third word ahead, you can type `3w`. In the same way you can move to the 10th line after the line where you are by type `10j`.
 
 The default motion move with logical mode, if you want to move in graphical mode you need to use:
 ```
@@ -123,12 +123,12 @@ g<motion>
 ###### **On Normal Mode**
 
 --------------------------------------------------
-Delete single focus character: 
+Delete single focus character:
 ```
 x
 ```
 --------------------------------------------------
-Delete more than one character: 
+Delete more than one character:
 ```
 <number>x
 ```
@@ -138,12 +138,12 @@ Delete operator (to know more go to [Operators](#operators) paragraph):
 d<motion>
 ```
 --------------------------------------------------
-Enter in **Insert Mode** (insert before the cursor): 
+Enter in **Insert Mode** (insert before the cursor):
 ```
 i
 ```
 --------------------------------------------------
-Enter in **Insert Mode** at the start of the line (to a non black character): 
+Enter in **Insert Mode** at the start of the line (to a non black character):
 ```
 I or Shift+i
 ```
@@ -156,14 +156,14 @@ a
 Append text to the line focused (this will put you on **Insert Mode** at the end of the line of the character focused):
 ```
 A or Shift+a
-``` 
+```
 ----------------------------------------------------
-Enter in **Insert Mode** and delete the character focused: 
+Enter in **Insert Mode** and delete the character focused:
 ```
 s
 ```
 ----------------------------------------------------
-Enter in **Insert Mode** and delete the entire line focused: 
+Enter in **Insert Mode** and delete the entire line focused:
 ```
 S or Shift+s
 ```
@@ -181,12 +181,12 @@ O or Shift+o
 Replace single character:
 ```
 r
-``` 
+```
 ---------------------------------------------------
 Replace more then one character:
 ```
 R or Shift+r
-``` 
+```
 To exit from **Replace Mode** press `<ESC>`.
 
 -------------------------------------------------
@@ -350,13 +350,17 @@ Now you need to set the write mode and a filename:
 This will create a file with the selection.
 
 --------------------------------------------------
-To do a copy and paste you need to use yank command. First select some text in **Visual Mode** and then press: 
+To do a copy and paste you need to use yank command. First select some text in **Visual Mode** and then press:
 ```
 y
 ```
 Then you can paste the yanked text with:
 ```
 p
+```
+To paste the yanked text before the cursor with:
+```
+P or Shift+p
 ```
 --------------------------------------------------
 
@@ -379,7 +383,7 @@ Many commands that change text are made from an operator and a motion.
 
 ###### **On Normal Mode**
 
-Delete operator: 
+Delete operator:
 
 ```
 d<motion>
@@ -400,7 +404,7 @@ You can delete the from the cursor to the end of the line by use:
 ```
 D or Shift+d
 ```
-Like `d$`. 
+Like `d$`.
 
 To delete the entire line you can use the command:
 ```
@@ -461,7 +465,7 @@ p
 ```
 
 ## Vim configuration
- 
+
 Vim has many more features than Vi, bu most of them are disabled by default. To abilitate them is need a vimrc file.
 To start editing the **vimrc** file (on Unix) you need to run this command:
 ```
@@ -482,7 +486,7 @@ When you are in **Command Line Mode** you can use the completition with:
 ```
 Ctrl+d
 ```
-this will work for everything with file or command. You can press the `<TAB>` key to choose one of the completition. 
+this will work for everything with file or command. You can press the `<TAB>` key to choose one of the completition.
 
 --------------------------------------------------
 
