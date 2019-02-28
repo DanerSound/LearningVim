@@ -22,8 +22,28 @@ This will open the file you want to edit with vim.
 ## Exit and save on Vim
 
 ###### **On Normal Mode**
-
 --------------------------------------------------
+Exit from vim:
+``` 
+:quit
+```
+or
+```
+:q
+```
+or
+``` 
+:exit
+```
+or
+```
+:x
+```
+or
+```
+ZZ or Shift+z+z
+```
+-------------------------------------------------
 Exit without save (trash all changes): 
 ```
 :q!
@@ -70,9 +90,16 @@ All the motions that you can use are:
 * `h/j/k/l` - in order move left/down/up/right
 * `w` - move to the start of the next word 
 * `e` - move to the end of the next word
+* `b` - move to the previous word
 * `$` - move to the end of the line
 * `0` - move to the start of the line
-
+* `W or Shift+w` - move to the start of the next word ignoring the special characters like parenthesis or commas.
+* `E or Shift+e` - move to the end of the next word ignoring the special characters like parenthesis or commas.
+* `B or Shift+b` - move to the previous word ignoring the special characters like parenthesis or commas.
+* `f<character>` - is the forward motion to the first character specified.
+* `F<character> or Shift+f<character>` - is the backward motion to the first character specified. 
+* `t<character>` - move forward until the first character specified.
+* `T<character> or Shift+t<character>` - move backward until the first character specified.
 There are several ways to repeats a motion: 
 * hold the motion key
 ```
@@ -85,6 +112,10 @@ There are several ways to repeats a motion:
 
 For example: You want to move the cursor to the start of the third word ahead, you can type `3w`. In the same way you can move to the 10th line after the line where you are by type `10j`. 
 
+The default motion move with logical mode, if you want to move in graphical mode you need to use:
+```
+g<motion>
+```
 
 ## Text Editing and Commands
 
@@ -94,6 +125,11 @@ For example: You want to move the cursor to the start of the third word ahead, y
 Delete single focus character: 
 ```
 x
+```
+--------------------------------------------------
+Delete more than one character: 
+```
+<number>x
 ```
 --------------------------------------------------
 Delete operator (to know more go to [Operators](#operators) paragraph):
@@ -106,6 +142,11 @@ Enter in **Insert Mode** (insert before the cursor):
 i
 ```
 --------------------------------------------------
+Enter in **Insert Mode** at the start of the line (to a non black character): 
+```
+I or Shift+i
+```
+--------------------------------------------------
 Enter in **Insert Mode** next to the character focused (append command):
 ```
 a
@@ -116,6 +157,26 @@ Append text to the line focused (this will put you on **Insert Mode** at the end
 A or Shift+a
 ``` 
 ----------------------------------------------------
+Enter in **Insert Mode** and delete the character focused: 
+```
+s
+```
+----------------------------------------------------
+Enter in **Insert Mode** and delete the entire line focused: 
+```
+S or Shift+s
+```
+----------------------------------------------------
+Create a new line below and enter in **Insert Mode**:
+```
+o
+```
+----------------------------------------------------
+Create a new line above and enter in **Insert Mode**:
+```
+O or Shift+o
+```
+----------------------------------------------------
 Replace single character:
 ```
 r
@@ -125,7 +186,7 @@ Replace more then one character:
 ```
 R or Shift+r
 ``` 
-To exit from **Replace Mode** press <ESC>.
+To exit from **Replace Mode** press `<ESC>`.
 
 -------------------------------------------------
 Enter in **Insert Mode** in the line below the cursor:
@@ -334,6 +395,12 @@ There are several **motion** for the delete operator:
 - `0` - delete from the start of the line to the character where the cursor is.
 - To know all the motions go to [Navigations and motions](#navigations-and-motions)
 
+You can delete the from the cursor to the end of the line by use:
+```
+D or Shift+d
+```
+Like `d$`. 
+
 To delete the entire line you can use the command:
 ```
 dd
@@ -363,6 +430,8 @@ It can be use all the motion, some example they can be:
 - `0` - replace from the start of the line to the character where the cursor is.
 - To know all the motions go to [Navigations and motions](#navigations-and-motions)
 
+The `C or Shift+c` have the same purpose of `c$`.
+
 --------------------------------------------------
 Yank (copy) operator:
 ```
@@ -381,6 +450,9 @@ It can be use all the motion, some example they can be:
 - `$` - copy to the end of the line, including the last character.
 - `0` - copy from the start of the line to the character where the cursor is.
 - To know all the motions go to [Navigations and motions](#navigations-and-motions)
+
+There are a few more yank command:
+- `yy` - yank the entire line
 
 This operator is use with paste command:
 ```
@@ -416,4 +488,5 @@ this will work for everything with file or command. You can press the `<TAB>` ke
 ## References
 * **Vimtutor**: you can easy run vimtutor from your terminal and get all the documentations and help of the vim editor
 * **Video of [DistroTube](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg)**: [The Vim Tutorial - Part One - Basic Commands](https://www.youtube.com/watch?v=ER5JYFKkYDg)
+* **Video of [DistroTube](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg)**: [The Vim Tutorial - Part Two - More Commands](https://www.youtube.com/watch?v=tExTz7GnpdQ)
 
