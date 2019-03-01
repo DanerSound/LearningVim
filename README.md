@@ -189,11 +189,6 @@ R or Shift+r
 ```
 To exit from **Replace Mode** press `<ESC>`.
 
--------------------------------------------------
-Enter in **Insert Mode** in the line below the cursor:
-```
-o
-```
 --------------------------------------------------
 Undo last commands executed:
 ```
@@ -239,7 +234,7 @@ gg
 --------------------------------------------------
 Move to a defined line:
 ```
-<number>G or <number>+Shift+g
+<number>G or <number>Shift+g
 ```
 --------------------------------------------------
 Search command:
@@ -292,7 +287,7 @@ To substitute this word on the entire of the line:
 ```
 :s/<old_word>/<new_word>/g
 ```
-To substitute old_word with new_word from line x to line y:
+To substitute *old_word* with *new_word* from line *x* to line *y*:
 ```
 :<x>,<y>s/<old_word>/<new_word>/g
 ```
@@ -307,7 +302,7 @@ To substitute in the entire file and ask for confirmation each time:
 --------------------------------------------------
 Execute an external command:
 ```
-:! <external_command>
+:!<external_command>
 ```
 --------------------------------------------------
 Retrive command:
@@ -400,7 +395,7 @@ There are several **motion** for the delete operator:
 - `0` - delete from the start of the line to the character where the cursor is.
 - To know all the motions go to [Navigations and motions](#navigations-and-motions)
 
-You can delete the from the cursor to the end of the line by use:
+You can delete from the cursor to the end of the line by use:
 ```
 D or Shift+d
 ```
