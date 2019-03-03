@@ -19,6 +19,12 @@ vim <path_to_file>
 ```
 This will open the file you want to edit with vim.
 
+## Vim Modes
+VIM has three modes:
+* Insert Mode- stuff you type is added to the buffer
+* Normal Mode- keys you hit are interpreted as commands
+* Visual Mode- allows you to select blocks of text
+
 ## Exit and save on Vim
 
 ###### **On Normal Mode**
@@ -489,4 +495,5 @@ this will work for everything with file or command. You can press the `<TAB>` ke
 * **Vimtutor**: you can easy run vimtutor from your terminal and get all the documentations and help of the vim editor
 * **Video of [DistroTube](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg)**: [The Vim Tutorial - Part One - Basic Commands](https://www.youtube.com/watch?v=ER5JYFKkYDg)
 * **Video of [DistroTube](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg)**: [The Vim Tutorial - Part Two - More Commands](https://www.youtube.com/watch?v=tExTz7GnpdQ)
+* **Github repository of [carlhuda](https://github.com/carlhuda)**: [janus](https://github.com/carlhuda/janus)
 
