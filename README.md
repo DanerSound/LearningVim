@@ -9,7 +9,7 @@
 
 ## Install vim
 
-**Debian**: `sudo apt install vim`
+**Debian/Ubuntu Distros (And more)**: `sudo apt install vim`
 
 ## Open a file
 
@@ -492,8 +492,28 @@ this will work for everything with file or command. You can press the `<TAB>` ke
 --------------------------------------------------
 
 ## References
-* **Vimtutor**: you can easy run vimtutor from your terminal and get all the documentations and help of the vim editor
+
+### First steps
+
+* **Vimtutor**: you can easy run vimtutor from your terminal and get all the documentations and help of the vim editor. Simply run `vimtutor`
+* [All you need to know is probably here](https://github.com/mhinz/vim-galore): A complete repository with all you need to know of vim and more
+* Obviously this incompleted github repository
+
+## Video
+
 * **Video of [DistroTube](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg)**: [The Vim Tutorial - Part One - Basic Commands](https://www.youtube.com/watch?v=ER5JYFKkYDg)
 * **Video of [DistroTube](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg)**: [The Vim Tutorial - Part Two - More Commands](https://www.youtube.com/watch?v=tExTz7GnpdQ)
-* **Github repository of [carlhuda](https://github.com/carlhuda)**: [janus](https://github.com/carlhuda/janus)
+
+## Books
+
+- https://iccf-holland.org/vim_books.html
+
+## Plugins
+
+- [VimAwesome](https://vimawesome.com/)
+- [Awesome-vim](https://github.com/akrawchyk/awesome-vim)
+
+## Mailinglist
+
+- [VimTricks](https://vimtricks.substack.com/)
 
